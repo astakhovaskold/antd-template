@@ -18,13 +18,13 @@ import validateMessages from './libs/validateMessages';
 dayjs.locale('ru');
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <ConfigProvider locale={ruRU} form={{ validateMessages }}>
-        <App />
-      </ConfigProvider>
+    <StrictMode>
+        <QueryClientProvider client={queryClient}>
+            <ConfigProvider locale={ruRU} form={{validateMessages}}>
+                <App />
+            </ConfigProvider>
 
-      <ReactQueryDevtools />
-    </QueryClientProvider>
-  </StrictMode>,
+            <ReactQueryDevtools />
+        </QueryClientProvider>
+    </StrictMode>,
 );
