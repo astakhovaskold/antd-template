@@ -10,6 +10,8 @@
     "lint": "tsc -p ./tsconfig.json && eslint 'src/**/*.{ts,tsx}' --quiet --cache --fix"
   },
   "dependencies": {
+    "antd": "^5.1.4",
+    "dayjs": "^1.11.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
